@@ -5,7 +5,7 @@ metadata:
 spec: 
   containers:
   - name: k8s-demo
-    image: raghava/k8sdemo
+    image: arjunachari12/k8s-demo
     ports:
     - name: nodejs-port
       containerPort: 3000
