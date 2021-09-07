@@ -1,0 +1,10 @@
+apiversion: V1
+kind: Pod
+metadata:
+  name: pod1
+spec:
+  Containers:
+  - name: nginx-raghava
+    image: nginx
+    ports:
+    - containerPort: 80
