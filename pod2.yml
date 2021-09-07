@@ -1,0 +1,11 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: pod2
+spec: 
+  containers:
+  - name: k8s-demo
+    image: raghava/k8sdemo
+    ports:
+    - name: nodejs-port
+      containerPort: 3000
