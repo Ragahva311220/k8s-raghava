@@ -2,6 +2,8 @@ apiVersion: v2
 kind: Pod
 metadata:
   name: pod2
+  labels:
+    app: hellowworld
 spec: 
   containers:
   - name: k8s-demo
